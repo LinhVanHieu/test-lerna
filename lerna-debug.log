@@ -1,0 +1,7 @@
+43 error Error: Command failed with exit code 128: git add -- packages/mf-package/package.json packages/utils/package.json lerna.json package-lock.json
+43 error fatal: Pathspec 'packages/mf-package/package.json' is in submodule 'packages/mf-package'
+43 error     at makeError (/Users/minhpham/working/mf/mf-package-lerna/node_modules/execa/lib/error.js:59:11)
+43 error     at handlePromise (/Users/minhpham/working/mf/mf-package-lerna/node_modules/execa/index.js:114:26)
+43 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+43 error     at async VersionCommand.updatePackageVersions (/Users/minhpham/working/mf/mf-package-lerna/node_modules/lerna/dist/index.js:8476:11)
+43 error     at async Promise.all (index 0)

@@ -1,0 +1,13 @@
+{
+  "name": "mf-package-lerna-utils",
+  "version": "0.0.5",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
